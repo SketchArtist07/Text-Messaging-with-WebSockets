@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Messaging with Web Socket</title>
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+
+  <style>
+    * {
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url("/images/photo-1519120944692-1a8d8cfc107f.avif");
+  background-size: cover;
+  background-position: center;
+  
+/*  this is where the magic happens:  */
+  background-attachment: fixed;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  opacity: 0.85;
+  background-color: #f5f8f9;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  box-shadow: 0 1px 9px 8px rgba(184, 184, 184, 0.5);
+  border-radius: 10px;
+}
+
+.token {background: #eaeefd;padding: 10px;border-radius: 10px;font-family: monospace;font-size: 14px; word-break: break-all;}
+#myToken {color: #636363;font-family: monospace;}
+
+textarea {
+  background-color: transparent;
+  border: 3px solid rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  height: 100px;
+  width: 300px;
+  resize: none;
+  font-family: monospace;
+}
+
+input {
+  display: block;
+  border: none;
+  padding: 0;
+  width: calc(8*(1ch + (.5*1ch)));
+  background: repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/12ch 2px no-repeat;
+  font: 3ch droid sans mono, consolas, monospace;
+  letter-spacing: 0.5ch;
+}
+input:focus {
+  outline: none;
+}
+
+
+textarea::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+textarea:focus {
+  outline: none;
+}
+
+textarea:focus::placeholder {
+  color: transparent;
+}
+input::placeholder {
+  color: #d9dbe4;
+}
+
+.input-btn {
+  display: flex;
+  gap: 3%;
+}
+
+button {
+  font-size: 17px;
+  width: 55%;
+  padding: 7px;
+  border-radius: 7px;
+  background-color: #343535;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #343535;
+}
+
+button:disabled {
+  background-color: #636363;
+  cursor: default;
+}
+#copyBtn {background-color: transparent;width: max-content; border: none; color: #4c4d4d; font-size: 10px;font-family: monospace; cursor: pointer;outline: none;}
+#copyBtn:hover {text-decoration:wavy; /* Optional hover effect */}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <p class="token">Your Session Token: <b id="myToken">Generating...</b></p>
+    <textarea type="text" id="msg" placeholder="Type or Paste your text here.. "></textarea>
+    <div class="input-btn">
+      <input id="toToken" maxlength="8" placeholder="USER2TID">
+      <button id="submit-btn">Submit &nbsp;<i class="fa-regular fa-paper-plane"></i></button>
+    </div>
+
+    <textarea id="messages" placeholder="Recieved texts... " readonly></textarea>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/scripts/script.js"></script>
+</body>
+</html>
