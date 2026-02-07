@@ -1,7 +1,5 @@
-# 💬 Text Messaging with WebSockets
-
 <div align="center">
-
+# 💬 Text Messaging with WebSockets
 <!-- TODO: Add project logo (e.g., a chat bubble icon) -->
 
 [![GitHub issues](https://img.shields.io/github/issues/SketchArtist07/Text-Messaging-with-WebSockets?style=for-the-badge)](https://github.com/SketchArtist07/Text-Messaging-with-WebSockets/issues)
@@ -26,7 +24,7 @@ The application allows users to establish unique sessions, identified by a token
 -   ⚙️ **Client-side Logic:** Pure JavaScript for handling WebSocket events and updating the UI.
 
 ## 🖥️ Screenshots
-
+<div align="center">
 <!-- TODO: Add actual screenshots of the application, showing both sending and receiving messages. -->
 <!-- Example: -->
 <img src="https://raw.githubusercontent.com/SketchArtist07/Text-Messaging-with-WebSockets/refs/heads/main/images/Project_Output.png" alt="Screenshot of the chat interface sending a message" style="width: 60%; max-width: 800px; height: auto;" />
@@ -37,9 +35,9 @@ The application allows users to establish unique sessions, identified by a token
 | Frontend | Backend |
 |---:|---:|
 | ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) | ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) |
-| ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) | ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) |
+| ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css&logoColor=white) | ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) |
 | ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) | ![WebSockets](https://img.shields.io/badge/WebSockets-101010?style=for-the-badge&logo=Socket.io&logoColor=white) |
-
+</div>
 
 ## 🚀 Quick Start
 
