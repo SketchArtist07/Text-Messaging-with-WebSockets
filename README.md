@@ -26,6 +26,9 @@ The application allows users to establish unique sessions, identified by a token
 
 <div align="center">
 ## 🖥️ Screenshots
+</div>
+
+<div align="center">
 <!-- TODO: Add actual screenshots of the application, showing both sending and receiving messages. -->
 <!-- Example: -->
 <img src="https://raw.githubusercontent.com/SketchArtist07/Text-Messaging-with-WebSockets/refs/heads/main/images/Project_Output.png" alt="Screenshot of the chat interface sending a message" style="width: 60%; max-width: 800px; height: auto;" />
