@@ -26,6 +26,7 @@ The application allows users to establish unique sessions, identified by a token
 
 <div align="center">
 🖥️ Project Screenshot
+    <br>
 </div>
 
 <div align="center">
@@ -175,7 +176,7 @@ This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LI
 ## 📞 Support & Contact
 
 -   🐛 Issues: [GitHub Issues](https://github.com/SketchArtist07/Text-Messaging-with-WebSockets/issues)
--   📧 Contact: [SketchArtist07](https://github.com/SketchArtist07) <!-- TODO: Add a specific contact email if desired -->
+-   📧 Contact: [SketchArtist07](sketchartist769@gmail.com) <!-- TODO: Add a specific contact email if desired -->
 
 ---
 
@@ -183,7 +184,7 @@ This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LI
 
 **⭐ Star this repo if you find it helpful!**
 
-Made with ❤️ by [SketchArtist07](https://github.com/SketchArtist07)
+Made with 🤞 by [SketchArtist07](https://github.com/SketchArtist07)
 
 </div>
 
