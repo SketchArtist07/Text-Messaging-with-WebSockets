@@ -25,7 +25,7 @@ The application allows users to establish unique sessions, identified by a token
 -   ⚙️ **Client-side Logic:** Pure JavaScript for handling WebSocket events and updating the UI.
 
 <div align="center">
-## 🖥️ Screenshots
+🖥️ Project Screenshot
 </div>
 
 <div align="center">
