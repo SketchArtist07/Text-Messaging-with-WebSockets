@@ -29,26 +29,17 @@ The application allows users to establish unique sessions, identified by a token
 
 <!-- TODO: Add actual screenshots of the application, showing both sending and receiving messages. -->
 <!-- Example: -->
-![Screenshot of the chat interface sending a message](https://raw.githubusercontent.com/SketchArtist07/Text-Messaging-with-WebSockets/refs/heads/main/images/Project_Output.png)
+<img src="https://raw.githubusercontent.com/SketchArtist07/Text-Messaging-with-WebSockets/refs/heads/main/images/Project_Output.png" alt="Screenshot of the chat interface sending a message" style="width: 60%; max-width: 800px; height: auto;" />
 <!-- ![Screenshot of the chat interface receiving a message](images/Project_Output.png) -->
 
 ## 🛠️ Tech Stack
 
-**Frontend:**
+| Frontend | Backend |
+|---:|---:|
+| ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) | ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) |
+| ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) | ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) |
+| ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) | ![WebSockets](https://img.shields.io/badge/WebSockets-101010?style=for-the-badge&logo=Socket.io&logoColor=white) |
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-
-**Backend:**
-
-![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-
-![WebSockets](https://img.shields.io/badge/WebSockets-101010?style=for-the-badge&logo=Socket.io&logoColor=white)
 
 ## 🚀 Quick Start
 
