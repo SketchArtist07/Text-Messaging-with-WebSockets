@@ -1,5 +1,6 @@
-<div align="center">
 # 💬 Text Messaging with WebSockets
+
+<div align="center">
 <!-- TODO: Add project logo (e.g., a chat bubble icon) -->
 
 [![GitHub issues](https://img.shields.io/github/issues/SketchArtist07/Text-Messaging-with-WebSockets?style=for-the-badge)](https://github.com/SketchArtist07/Text-Messaging-with-WebSockets/issues)
@@ -23,8 +24,8 @@ The application allows users to establish unique sessions, identified by a token
 -   🌐 **Express.js Backend:** A simple, efficient server to manage WebSocket connections and message relay.
 -   ⚙️ **Client-side Logic:** Pure JavaScript for handling WebSocket events and updating the UI.
 
-## 🖥️ Screenshots
 <div align="center">
+## 🖥️ Screenshots
 <!-- TODO: Add actual screenshots of the application, showing both sending and receiving messages. -->
 <!-- Example: -->
 <img src="https://raw.githubusercontent.com/SketchArtist07/Text-Messaging-with-WebSockets/refs/heads/main/images/Project_Output.png" alt="Screenshot of the chat interface sending a message" style="width: 60%; max-width: 800px; height: auto;" />
